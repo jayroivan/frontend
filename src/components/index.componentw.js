@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-import TableRowTrans from './TableRow';
 
 export default class Index extends Component {
 

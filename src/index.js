@@ -5,7 +5,9 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
+const element = <h1>Hello, world</h1>;
+
+ReactDOM.render(element,
   <BrowserRouter>
   <App />
   </BrowserRouter>, document.getElementById('root'));

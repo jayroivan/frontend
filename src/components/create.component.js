@@ -90,6 +90,7 @@ export default class Create extends Component {
                     <label>Nombre de Usuario:  </label>
                     <input 
                       type="text" 
+                      placeholder="Juan10"
                       className="form-control" 
                       value={this.state.name}
                       onChange={this.onChangeName}

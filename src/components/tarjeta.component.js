@@ -89,7 +89,7 @@ export default class Tarjeta extends Component {
                       />
                 </div>
                 <div className="form-group">
-                    <label>Numero: </label>
+                    <label>Código: </label>
                     <input type="text" 
                       maxlength="16"
                       placeholder="1523 2365 2598 5456"
@@ -103,7 +103,7 @@ export default class Tarjeta extends Component {
                     <label>Mes: </label>
                     <input type="text" 
                       className="form-control"
-                      placeholder="1523 2365 2598 5456"
+                      placeholder="02"
                       value={this.state.Month}
                       onChange={this.onChangeMonth}
                       />

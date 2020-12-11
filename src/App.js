@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Create from './components/create.component';
 import Edit from './components/edit.component';
 import Index from './components/index.component';
+import Indexw from './components/index.componentw';
 import AuthService from "./services/auth.service";
 import Tarjeta from "./components/tarjeta.component";
 import Dashboard from './components/dashboard';
@@ -59,7 +60,7 @@ class App extends Component {
       <Router>
         <div className="container-fluid p-0">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <Link to={'/'} className="navbar-brand">Fast Pay</Link>
+            <Link to={'/indexw'} className="navbar-brand">Fast Pay</Link>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
@@ -130,6 +131,7 @@ class App extends Component {
               <Route path='/edit/:id' component={ Edit } />
               <Route path='/tarjeta/' component={ Tarjeta } />
               <Route path='/index' component={ Index } />
+              <Route path='/indexw' component={ Indexw } />
               <Route path="/editar/tarjeta/:id" component={ EditTarjeta } />
               <Route exact path="/login" component={ Login } />
               <Route exact path="/login/admin" component={ LoginAdmin } />

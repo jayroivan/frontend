@@ -98,7 +98,7 @@ render(){
                             <th>Estado</th>
                             <th>Correo</th>
                             <th>Monto</th>
-                            <th colSpan="1">Action</th>
+                            <th colSpan="1">Acción</th>
                           </tr>
                         </thead>
                         <tbody>

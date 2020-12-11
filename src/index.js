@@ -7,9 +7,6 @@ import * as serviceWorker from './serviceWorker';
 
 const element = <h1>Hello, world</h1>;
 
-ReactDOM.render(element,
-  <BrowserRouter>
-  <App />
-  </BrowserRouter>, document.getElementById('root'));
+ReactDOM.render(element, document.getElementById('root'));
 
 serviceWorker.unregister();

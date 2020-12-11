@@ -100,6 +100,7 @@ export default class Login extends Component {
               <label htmlFor="username">Username</label>
               <Input
                 type="text"
+                placeholder="Juan10"
                 className="form-control"
                 name="username"
                 value={this.state.username}
@@ -112,6 +113,7 @@ export default class Login extends Component {
               <label htmlFor="password">Password</label>
               <Input
                 type="password"
+                placeholder="********"
                 className="form-control"
                 name="password"
                 value={this.state.password}

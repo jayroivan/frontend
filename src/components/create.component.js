@@ -99,6 +99,7 @@ export default class Create extends Component {
                     <label>Nombre Completo: </label>
                     <input type="text" 
                       className="form-control"
+                      placeholder="Juan Antonio Perez Mejia"
                       value={this.state.last_name}
                       onChange={this.onChangeLast}
                       />
@@ -107,6 +108,7 @@ export default class Create extends Component {
                     <label>Direccion: </label>
                     <input type="text" 
                       className="form-control"
+                      placeholder="Chalatenango"
                       value={this.state.direction}
                       onChange={this.onChangeDirection}
                       />
@@ -115,6 +117,7 @@ export default class Create extends Component {
                     <label>Email: </label>
                     <input type="email" 
                       className="form-control"
+                      placeholder="juan@gmail.com"
                       value={this.state.email}
                       onChange={this.onChangeEmail}
                       />
@@ -123,6 +126,7 @@ export default class Create extends Component {
                     <label>Contraseña: </label>
                     <input type="password" 
                       className="form-control"
+                      placeholder="********"
                       value={this.state.password}
                       onChange={this.onChangePassword}
                       />

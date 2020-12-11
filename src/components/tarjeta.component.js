@@ -112,7 +112,7 @@ export default class Tarjeta extends Component {
                     <label>Año: </label>
                     <input type="text" 
                       className="form-control"
-                      placeholder="2025"
+                      placeholder="2024"
                       value={this.state.Year}
                       onChange={this.onChangeYear}
                       />
